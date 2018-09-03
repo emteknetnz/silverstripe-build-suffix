@@ -1,6 +1,6 @@
 {
-  "name": "emteknetnz/silverstripe-built-at-file-suffix",
-  "description": "Used to set the asset ?m= suffix to use the last BuiltAt timestamp",
+  "name": "emteknetnz/silverstripe-build-suffix",
+  "description": "Set file cache suffix to use the last dev/build timestamp",
   "type": "silverstripe-module",
   "require": {
     "php": "^5.3",
