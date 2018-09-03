@@ -4,8 +4,9 @@
   "type": "silverstripe-module",
   "require": {
     "php": "^5.3",
-    "silverstripe/framework": "^3.1",
-    "silverstripe/siteconfig": "^3.1"
+    "silverstripe/framework": "^3",
+    "silverstripe/cms": "^3",
+    "silverstripe/siteconfig": "^3"
   },
   "license": "BSD-3-Clause",
   "authors": [
