@@ -1,5 +1,5 @@
 {
-  "name": "emteknetnz/silverstripe-flushed-at",
+  "name": "emteknetnz/silverstripe-built-at-file-suffix",
   "description": "Used to set the asset ?m= suffix to use the last BuiltAt timestamp",
   "type": "silverstripe-module",
   "require": {
