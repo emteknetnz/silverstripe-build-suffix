@@ -5,6 +5,8 @@ class BuiltAtRequirementsBackend extends Requirements_Backend
 
     private static $useBackend = true;
 
+    private static $suffixKey = 'b';
+
     protected $builtAtTimestamp = 0;
 
     /**
@@ -26,6 +28,7 @@ class BuiltAtRequirementsBackend extends Requirements_Backend
             }
             $this->builtAtTimestamp = DateTime::createFromFormat('Y-m-d H:i:s', $builtAt)->getTimestamp();
         }
-        return preg_replace('%(\?m=[0-9]+)%', '?m=' . $this->builtAtTimestamp, $path);
+        $suffixKey = Config::inst()->get(self::class, 'suffixKey');
+        return preg_replace('%(\?m=[0-9]+)%', "?$suffixKey=" . $this->builtAtTimestamp, $path);
     }
 }
