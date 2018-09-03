@@ -1,0 +1,17 @@
+{
+  "name": "emteknetnz/silverstripe-flushed-at",
+  "description": "Used to set the asset ?m= suffix to use the last BuiltAt timestamp",
+  "type": "silverstripe-module",
+  "require": {
+    "php": "^5.3",
+    "silverstripe/framework": "^3.1",
+    "silverstripe/siteconfig": "^3.1"
+  },
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Steve Boyd",
+      "email": "emteknetnz@gmail.com"
+    }
+  ]
+}
