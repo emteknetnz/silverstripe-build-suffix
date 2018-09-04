@@ -1,0 +1,20 @@
+---
+Only:
+  enviroment: dev
+---
+BuiltAtRequirementsBackend:
+  use_backend: false
+
+---
+Only:
+  environment: test
+---
+BuiltAtRequirementsBackend:
+  use_backend: true
+
+---
+Only:
+  environment: live
+---
+BuiltAtRequirementsBackend:
+  use_backend: true
