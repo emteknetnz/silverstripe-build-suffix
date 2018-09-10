@@ -1,20 +1,25 @@
 ---
+Name: buildsuffix-dev
 Only:
-  enviroment: dev
+  environment: 'dev'
 ---
 BuiltAtRequirementsBackend:
   use_backend: false
 
+
 ---
+Name: buildsuffix-test
 Only:
-  environment: test
+  environment: 'test'
 ---
 BuiltAtRequirementsBackend:
   use_backend: true
 
+
 ---
+Name: buildsuffix-live
 Only:
-  environment: live
+  environment: 'live'
 ---
 BuiltAtRequirementsBackend:
   use_backend: true
