@@ -12,7 +12,10 @@ Just install the module and the suffix will be automatically used on test and li
 
 Dev environments will continue to use the default ?m= suffix so that newly built front end assets don't get stuck in a browser cache.
 
-You can change this behaviour copying the yml in config.yml into your mysite folder and updating it there.
+You can change this behaviour for different environments by updating config.yml in your mysite folder, e.g.
+
+BuiltAtRequirementsBackend:
+  use_backend_dev: true
 
 ## Requirements
 SilverStripe 3

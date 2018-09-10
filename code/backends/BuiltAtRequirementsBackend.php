@@ -3,7 +3,11 @@
 class BuiltAtRequirementsBackend extends Requirements_Backend
 {
 
-    private static $use_backend = true;
+    private static $use_backend_live = true;
+
+    private static $use_backend_test = true;
+
+    private static $use_backend_dev = false;
 
     private static $suffix_key = 'b';
 
